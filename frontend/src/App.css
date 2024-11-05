@@ -1,0 +1,139 @@
+*{
+  margin :0;
+  padding :0;
+  box-sizing: border-box;
+}.background_pink{
+  background-image: radial-gradient(rgb(246, 112, 134), rgb(172, 17, 43));
+  
+}
+#home{
+  width :100vw;
+  height :100vh;
+ display :flex;
+ align-items :center;
+ justify-content: center;
+}
+#home > div{
+ width : 350px;
+ height : 90vh;
+ border: 1px solid grey;
+ background-color: rgb(255, 49, 255);
+ display :flex;
+ justify-content: center;
+ align-items : center;
+}#home > div  > a{
+  text-decoration: none;
+    color : white;
+    width: 100px;
+      padding: 20px;
+      border: none;
+      background-color: rgb(49, 14, 20);
+}#register{
+  width :100vw;
+  height : 100vh;
+  display :flex;
+  align-items :center;
+  justify-content: center;
+}#register > div{
+  display :flex;
+  flex-direction: column;
+  gap :30px;
+}#register > div label{
+  font-size: 2rem;
+}#register > div > input{
+  padding :10px;
+  border : none;
+  outline : none;
+}#register > div >button{
+  padding :5px;
+  color : white;
+  border :none;
+  border-radius: 2px;
+}.background_full{
+  width :100vw;
+  height :100vh;
+}#prank{
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap :30px;
+  color :white;
+}#prank > h1{
+  font-size :3rem;
+  letter-spacing: 5px;
+}#prank > h3{
+  font-size :2rem;
+  letter-spacing :2px;
+}#prank > a{
+  text-decoration: none;
+  color : black;
+  background-color : pink;
+  padding :10px;
+
+}#play > div{
+  display :flex;
+  flex-direction :column;
+  gap :40px;
+  width : 40vw;
+  height : 80vh;
+  justify-content: center;
+}#play {
+  display :flex;
+  align-items :center;
+  justify-content: center;
+}#play label{
+  color : white;
+  font-size: 2rem;
+}#play input{
+  padding :20px;
+  font-size :1.2rem;
+  outline : none;
+  border :none;
+}#play button{
+  padding :30px;
+  color :white;
+  background-color: pink;
+  border:none;
+}#dashboard { 
+  display :flex;
+  flex-direction: column;
+  gap : 30px;
+  justify-content: center;
+  align-items :center;
+  min-height: 100vh;
+}#dashboard > div h1{
+  color : white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+font-size : 4rem;
+}#dashboard > div {
+  display :flex;
+  width :60vw;
+  flex-direction : column;
+  gap : 40px;
+  
+}#dashboard > div h3{
+  color : white;
+  letter-spacing :3px;
+}#dashboard > div h2{
+  color : rgb(99, 49, 58);
+  background-color: white;
+  padding :10px;
+  font-size :2rem;
+}#dashboard > div table { 
+  color : white;
+  text-align : center;
+  border :1px solid pink;
+  border-spacing :10px;
+  border-collapse : collapse;
+  
+}#dashboard>div table td , #dashboard>div table th{
+  border : 1px solid #ddd;
+  padding :5px;
+}.err{
+  padding :5px;
+  color :red;
+  background-color: white;
+}

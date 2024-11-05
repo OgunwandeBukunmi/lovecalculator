@@ -1,0 +1,14 @@
+POST http://localhost:3000/register/bukunmi
+Content-Type: "application/json"
+
+###
+GET http://localhost:3000/nameConvert/$2b$10$XYsdUfEeSYtthDFIl2o0o.N8lvhq0/Wwl2EqbydFpnh9dn/X59vRq
+
+###
+POST http://localhost:3000/play/bukunmi HTTP/1.1
+Content-Type: "application/json"
+
+{
+    "Crusher" : "Ayo",
+    "Crushee" : "Bukunmi"
+}

@@ -1,0 +1,10 @@
+POST http://localhost:3000/play/bukunmi 
+Content-Type: application/json
+
+{
+"Crusher": "fdfsbxcvbdf",
+"Crushee":"bufsxvbxvbdfsdf"
+
+}
+###
+GET http://localhost:3000/d/bukunmi
